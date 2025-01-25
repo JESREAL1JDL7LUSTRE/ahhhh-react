@@ -25,22 +25,22 @@ const App = () => {
           {/* 2nd row*/}
           <div id='groupdiv' className="p-0.5 flex md:flex-row flex-col size-full gap-1 md:gap-4">
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000 flex">
-            <img src="/images/5.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
+            <img src="images/5.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
             </div>
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000 flex">
-              <img src="/images/1.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
+              <img src="images/1.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
             </div>
           </div>
           {/* 3rd row*/}
           <div id='groupdiv' className="p-0.5 flex md:flex-row flex-col size-full gap-1 md:gap-4">
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
-            <img src="/images/2.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
+            <img src="images/2.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
             </div>
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
-            <img src="/images/3.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
+            <img src="images/3.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
             </div>
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
-            <img src="/images/4.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
+            <img src="images/4.PNG" className="absolute inset-0 size-full rounded-3xl object-fill" alt="image" />
             </div>
           </div>
         
