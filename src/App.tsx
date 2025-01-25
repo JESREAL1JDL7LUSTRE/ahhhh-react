@@ -25,22 +25,22 @@ const App = () => {
           {/* 2nd row*/}
           <div id='groupdiv' className="p-0.5 flex md:flex-row flex-col size-full gap-1 md:gap-4">
             <div id="indiv-div" className="relative border border-red-600 size-full bg-white rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000 flex">
-            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\66cfbd9729ef6e5a4dddbc7f_aoraki-pastel-dawn-mt-cook-2.jpg" alt="image" />
+            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\66cfbd9729ef6e5a4dddbc7f_aoraki-pastel-dawn-mt-cook-2.png" alt="image" />
             </div>
             <div id="indiv-div" className="relative border border-red-600 size-full bg-white rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000 flex">
-              <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\360_F_537946399_TFWJZ0vNKRYS3EcQwPDiAVdOj3aAlzsV.jpg" alt="image" />
+              <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\360_F_537946399_TFWJZ0vNKRYS3EcQwPDiAVdOj3aAlzsV.png" alt="image" />
             </div>
           </div>
           {/* 3rd row*/}
           <div id='groupdiv' className="p-0.5 flex md:flex-row flex-col size-full gap-1 md:gap-4">
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
-            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\istockphoto-181865645-612x612.jpg" alt="image" />
+            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\istockphoto-181865645-612x612.png" alt="image" />
             </div>
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
-            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\pexels-souvenirpixels-1619317.jpg" alt="image" />
+            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\pexels-souvenirpixels-1619317.png" alt="image" />
             </div>
             <div id="indiv-div" className="relative border border-red-600 size-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
-            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\the-best-place-to-focus-in-a-landscape.jpg" alt="image" />
+            <img className="absolute inset-0 size-full rounded-3xl object-fill" src="src\images\the-best-place-to-focus-in-a-landscape.png" alt="image" />
             </div>
           </div>
         
