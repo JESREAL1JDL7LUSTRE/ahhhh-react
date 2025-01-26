@@ -1,8 +1,14 @@
 
-import { Button } from "@/components/ui/button";
-import { Plus } from "lucide-react";
 
-const Album = () => {
+interface AlbumProps {
+
+    images: string[];
+  
+  }
+
+const Album: React.FC<AlbumProps> = ({images}) => {
+
+
   return (
     <div className="flex flex-col items-center w-full justify-center">
       <h1 className="flex text-4xl font-bold">Gallery</h1>
@@ -25,14 +31,14 @@ const Album = () => {
         <div className="p-0.5 flex md:flex-row flex-col w-full h-64 gap-1 md:gap-4">
           <div className="relative border border-red-600 w-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000 flex">
             <img
-              src="images/5.jpg"
+              src={images[0]}
               className="absolute inset-0 w-full h-full rounded-3xl object-fill"
               alt="Gallery Image 5"
             />
           </div>
           <div className="relative border border-red-600 w-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000 flex">
             <img
-              src="images/1.jpg"
+              src={images[1]}
               className="absolute inset-0 w-full h-full rounded-3xl object-fill"
               alt="Gallery Image 1"
             />
@@ -43,37 +49,27 @@ const Album = () => {
         <div className="p-0.5 flex md:flex-row flex-col w-full h-56 gap-1 md:gap-4">
           <div className="relative border border-red-600 w-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
             <img
-              src="images/2.jpg"
+              src={images[2]}
               className="absolute inset-0 w-full h-full rounded-3xl object-fill"
               alt="Gallery Image 2"
             />
           </div>
           <div className="relative border border-red-600 w-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
             <img
-              src="images/3.jpg"
+              src={images[3]}
               className="absolute inset-0 w-full h-full rounded-3xl object-fill"
               alt="Gallery Image 3"
             />
           </div>
           <div className="relative border border-red-600 w-full rounded-3xl flex-[1] hover:flex-[2] transition-all duration-1000">
             <img
-              src="images/4.jpg"
+              src={images[4]}
               className="absolute inset-0 w-full h-full rounded-3xl object-fill"
               alt="Gallery Image 4"
             />
           </div>
         </div>
       </div>
-
-      {/* Add button */}
-      <Button
-        variant="outline"
-        size="icon"
-        className="mt-4"
-        onClick={() => console.log("clicked")}
-      >
-        <Plus />
-      </Button>
     </div>
   )
 }
