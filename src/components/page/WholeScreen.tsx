@@ -34,7 +34,7 @@ const WholeScreen = () => {
           variant="outline"
           size="icon"
           className="absolute left-4 top-1/2 transform -translate-y-1/2 md:left-14 lg:left-30 xl:left-40 transition-all duration-500"
-          onClick={() => swapImages("previous")}
+          onClick={() => swapImages("next")}
         >
           <ChevronLeft />
         </Button>
@@ -47,7 +47,7 @@ const WholeScreen = () => {
           variant="outline"
           size="icon"
           className="absolute right-4 top-1/2 transform -translate-y-1/2 md:right-14 lg:right-30 xl:right-40 transition-all duration-500"
-          onClick={() => swapImages("next")}
+          onClick={() => swapImages("previous")}
         >
           <ChevronRight />
         </Button>
