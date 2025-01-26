@@ -16,11 +16,11 @@ const WholeScreen = () => {
 
   // Function to swap images when the "Next" button is clicked
   const swapImages = (direction: "next" | "previous") => {
-    if (direction === "next") {
+    if (direction === "previous") {
       const updatedImages = [...images];
       updatedImages.push(updatedImages.shift() as string); // Shift first image and push it to the end
       setImages(updatedImages);
-    } else if (direction === "previous") {
+    } else if (direction === "next") {
       const updatedImages = [...images];
       updatedImages.unshift(updatedImages.pop() as string); // Pop last image and unshift it to the front
       setImages(updatedImages);
